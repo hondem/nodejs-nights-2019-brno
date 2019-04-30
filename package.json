@@ -10,7 +10,7 @@
     "test": "mocha --config .mocharc.js",
     "start": "node src/app.js",
     "dev": "nodemon src/app.js | pino-pretty",
-    "lint": "eslint ./src", 
+    "lint": "eslint ./src",
     "migrate:latest": "knex migrate:latest --cwd ./src/database --knexfile ./../config/knexfile.js",
     "coverage": "nyc mocha --config .mocharc.js"
   },
